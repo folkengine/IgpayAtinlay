@@ -18,7 +18,6 @@ class IgpayOkentay {
             (this.irstfay.length !== 0 )) &&
             (this.irstfay.charAt(0) === this.irstfay.charAt(0).toUpperCase());
         this.vowelled = /[aeiou]+.*[aeiou]?/iy.test(raw.trim());
-        this.doo = "doo";
     }
 
     arsepay() {
